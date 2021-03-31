@@ -1,0 +1,260 @@
+body{
+font-family: 'Evogria';
+}
+
+@font-face {
+font-family: 'Evogria';
+src: url("Fontes/BebasNeue-Regular.otf");
+}
+
+header {
+font-family: 'Evogria';
+background-color: white;
+padding: 0px;
+text-align: center;
+font-size: 50px;
+color: #000000;
+margin: 10px;
+border-top: 5px solid #000000;
+border-bottom: 5px solid #000000;
+font-weight: bold;
+width: 100%;
+}
+
+.imgeu{
+text-align: left;
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: #000000;
+padding: 5px; 
+padding-bottom: 5px; 
+transition: 0.3s;
+width: 320;
+height: 410;
+}
+
+.imgeu_mouse {
+text-align: left;
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: #000000;
+padding: 5px; 
+padding-bottom: 5px;
+width: 500px;
+height: 640.625px;
+transition: 0.3s;
+}
+
+.imgeu2{
+text-align: center;
+}
+
+.info_pessoal {
+font-family: 'Evogria';
+text-align: center;
+font-size: 35px;
+background: #4F4F4F;
+color: white;
+margin: 10px;
+padding: 1px;
+width: 100%;
+}
+
+.info_pessoal ul {
+text-align: center;
+list-style-type: none;
+padding-right: 0px;
+}
+*{
+margin: 0;
+padding: 0;
+}
+p{
+font-family: 'Evogria';
+font-size: 35px;
+text-align: center;
+}
+section.form{
+width: 350px;
+text-align: center;
+display: inline-block;
+background-color: #000000;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 10px;
+color: white;
+font-family: 'Evogria';
+font-size: 25px;
+}
+section.forms{
+text-align: center;
+}
+.titulo {
+font-weight: bold;
+font-family: 'Evogria';
+background-color: white;
+padding: 0px;
+text-align: center;
+font-size: 60px;
+color: #000000;
+margin: 10px;
+border-top: 5px solid #000000;
+border-bottom: 5px solid #000000;
+width: 100%;
+}
+ul{
+font-family: 'Evogria';
+text-align: center;
+/* padding-right: 40px; */
+font-size: 35px;
+}
+.iconeimg{
+display: inline-block;
+padding: 5px;
+background-color: #000000;
+margin: 3px;  
+}
+.ce{
+font-family: 'Evogria';
+text-align: center;
+font-size: 35px;
+}
+.cetitulo{
+font-family: 'Evogria';
+text-align: center;
+font-size: 45px;
+font-weight: bold;
+}
+*{box-sizing:border-box}
+.slideshow{
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+.mySlides {
+display: none;
+}
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 170%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+background-color: #717171;
+}
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+.slideshow-container{
+text-align: center;
+}
+
+.dots{
+text-align: center;
+}
+.idiomas{
+text-align: center;
+} 
+.overlay {
+height: 0%;
+width: 100%;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(0,0,0);
+background-color: rgba(0,0,0, 0.9);
+overflow-y: hidden;
+transition: 0.5s;
+}
+  
+.overlay-content {
+position: relative;
+top: 25%;
+width: 100%;
+text-align: center;
+margin-top: 30px;
+}
+  
+.overlay a {
+padding: 8px;
+text-decoration: none;
+font-size: 36px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+  
+.overlay a:hover, .overlay a:focus {
+color: #f1f1f1;
+}
+  
+.overlay .closebtn {
+position: absolute;
+top: 20px;
+right: 45px;
+font-size: 60px;
+}
+
+.ep1{
+text-align: center;
+font-size: 45px;
+}
+
+.ep2{
+text-align: center;
+font-size: 35px;
+}
+
+.escuro{
+transition: 1s;
+background-color: #000000;
+color: white;
+}
+
+.claro{
+transition: 1s;
+}
+
+#acender, #escuro{
+cursor: pointer;
+}
